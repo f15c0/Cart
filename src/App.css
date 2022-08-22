@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-logo {
@@ -11,6 +13,14 @@
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
   }
+}
+
+.item{
+  cursor: pointer;
+}
+.item:hover{
+   background: crimson;
+   color: aliceblue;
 }
 
 .App-header {
